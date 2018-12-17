@@ -1,0 +1,101 @@
+2018-12-13 17:40:35,645 ERROR: Exception on /post [GET] [in /Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/evh111/Desktop/programz/petblog/app/main/routes.py", line 195, in post
+    return render_template('post.html')
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: post.html
+2018-12-13 17:41:18,087 INFO: PetBlog [in /Users/evh111/Desktop/programz/petblog/app/__init__.py:82]
+2018-12-13 19:50:10,960 INFO: PetBlog [in /Users/evh111/Desktop/programz/petblog/app/__init__.py:82]
+2018-12-14 09:43:36,620 INFO: PetBlog [in /Users/evh111/Desktop/programz/petblog/app/__init__.py:82]
+2018-12-14 09:51:45,437 INFO: PetBlog [in /Users/evh111/Desktop/programz/petblog/app/__init__.py:82]
+2018-12-14 09:54:27,146 INFO: PetBlog [in /Users/evh111/Desktop/programz/petblog/app/__init__.py:82]
+2018-12-14 09:54:52,259 INFO: PetBlog [in /Users/evh111/Desktop/programz/petblog/app/__init__.py:82]
+2018-12-14 09:56:14,371 INFO: PetBlog [in /Users/evh111/Desktop/programz/petblog/app/__init__.py:82]
+2018-12-14 09:56:47,000 INFO: PetBlog [in /Users/evh111/Desktop/programz/petblog/app/__init__.py:82]
+2018-12-14 09:58:17,265 INFO: PetBlog [in /Users/evh111/Desktop/programz/petblog/app/__init__.py:82]
+2018-12-14 09:58:57,183 INFO: PetBlog [in /Users/evh111/Desktop/programz/petblog/app/__init__.py:82]
+2018-12-14 09:59:31,961 INFO: PetBlog [in /Users/evh111/Desktop/programz/petblog/app/__init__.py:82]
+2018-12-14 09:59:47,823 INFO: PetBlog [in /Users/evh111/Desktop/programz/petblog/app/__init__.py:82]
+2018-12-14 10:00:16,667 INFO: PetBlog [in /Users/evh111/Desktop/programz/petblog/app/__init__.py:82]
+2018-12-14 10:01:06,066 INFO: PetBlog [in /Users/evh111/Desktop/programz/petblog/app/__init__.py:82]
+2018-12-14 10:01:58,379 INFO: PetBlog [in /Users/evh111/Desktop/programz/petblog/app/__init__.py:82]
+2018-12-14 10:03:41,674 INFO: PetBlog [in /Users/evh111/Desktop/programz/petblog/app/__init__.py:82]
+2018-12-14 10:04:30,112 INFO: PetBlog [in /Users/evh111/Desktop/programz/petblog/app/__init__.py:82]
+2018-12-14 10:04:31,149 ERROR: Exception on / [GET] [in /Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/evh111/Desktop/programz/petblog/app/main/routes.py", line 33, in index
+    return render_template('index.html', title=_('Home'), form=form,
+NameError: name 'form' is not defined
+2018-12-14 10:04:33,621 ERROR: Exception on /post [GET] [in /Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2018-12-14 10:05:44,742 INFO: PetBlog [in /Users/evh111/Desktop/programz/petblog/app/__init__.py:82]
+2018-12-14 10:05:46,040 ERROR: Exception on / [GET] [in /Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/evh111/Desktop/programz/petblog/myenv/lib/python3.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/evh111/Desktop/programz/petblog/app/main/routes.py", line 33, in index
+    return render_template('index.html', title=_('Home'), form=form,
+NameError: name 'form' is not defined
+2018-12-14 10:06:30,316 INFO: PetBlog [in /Users/evh111/Desktop/programz/petblog/app/__init__.py:82]
