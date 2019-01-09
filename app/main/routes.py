@@ -178,7 +178,7 @@ def messages():
                            next_url=next_url, prev_url=prev_url)
 
 
-@bp.route('/post')
+@bp.route('/post', methods=['GET', 'POST'])
 @login_required
 def post():
     form = PostForm()

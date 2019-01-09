@@ -19,5 +19,7 @@ class Config(object):
     ADMINS = ['elijahhelmandollar101@gmail.com']
     LANGUAGES = ['en', 'es']
     MS_TRANSLATOR_KEY = os.environ.get('MS_TRANSLATOR_KEY')
-    ELASTICSEARCH_URL = os.environ.get('ELASTICSEARCH_URL')
     POSTS_PER_PAGE = 5
+
+    # run 'export ELASTICSEARCH_URL=http://localhost:9200' if not in '.env'
+    ELASTICSEARCH_URL = os.environ.get('ELASTICSEARCH_URL')
