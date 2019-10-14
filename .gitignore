@@ -1,0 +1,8 @@
+# App
+/migrations
+/logs
+/app.db
+__pycache__/
+
+# Heroku
+/Procfile
