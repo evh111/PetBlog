@@ -3,6 +3,7 @@
 /logs
 /app.db
 __pycache__/
+myenv/
 
 # Heroku
 /Procfile
